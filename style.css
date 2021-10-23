@@ -1,0 +1,310 @@
+/* @import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+
+.body {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.pokemonName {
+  width: 5vw;
+  max-height: 96px;
+  max-width: 30vw;
+  margin: auto;
+  font-size: 19px;
+  font-family: "IM Fell English SC", serif;
+  margin-left: 2vw;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#pokePics {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3vw;
+  width: 5vw;
+}
+.container {
+  height: 100%;
+  background-image: linear-gradient(to left, #bdbbbe 0%, #9d9ea3 100%),
+    radial-gradient(
+      88% 271%,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(254, 254, 254, 0.25) 1%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    radial-gradient(
+      50% 100%,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    );
+  background-blend-mode: normal, lighten, soft-light;
+}
+#smallContainer {
+  display: flex;
+  flex-direction: row;
+}
+#pokeList {
+  display: flex;
+  flex-direction: column;
+}
+#title {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 5em;
+  letter-spacing: -2px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  color: #c1b7aa;
+}
+.pokemonImage {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.pokemonImage:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.navButton {
+  margin-top: 2vh;
+  width: 300px;
+  margin-left: 2vw;
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 4px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+.navButton:hover {
+  color: #ffffff !important;
+  background: #f6b93b;
+  border-color: #f6b93b !important;
+  transition: all 0.4s ease 0s;
+}
+.disabled {
+  background-color: black;
+  disabled: "disabled";
+}
+.disabled:hover {
+  opacity: 0.1;
+}
+.disabled:disabled,
+.disabled[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.text {
+  font-family: "Oswald", sans-serif;
+}
+
+#searchPokemonDiv {
+  width: 20vw;
+}
+#pokemonSearchButton {
+}
+.text2 {
+  font-family: "IM Fell English SC", serif;
+}
+h2 {
+  font-family: "IM Fell English SC", serif;
+  font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+  #container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #pokePics {
+    margin-left: 5em;
+    img {
+      height: auto;
+      width: 145%;
+    }
+  }
+  .pokemonName {
+    font-size: 14px;
+    max-width: 15em;
+    width: 100%;
+  }
+} */
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+.body {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e6e9f0), to(#eef1f5));
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.pokemonName {
+  width: 5vw;
+  max-height: 96px;
+  max-width: 30vw;
+  margin: auto;
+  font-size: 19px;
+  font-family: 'IM Fell English SC', serif;
+  margin-left: 2vw;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#pokePics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 3vw;
+  width: 5vw;
+}
+
+.container {
+  height: 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(#BDBBBE), to(#9D9EA3)), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background-blend-mode: normal, lighten, soft-light;
+}
+
+#smallContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#pokeList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#title {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 5em;
+  letter-spacing: -2px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  color: #c1b7aa;
+}
+
+.pokemonImage {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.pokemonImage:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.navButton {
+  margin-top: 2vh;
+  width: 300px;
+  margin-left: 2vw;
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 4px solid #494949 !important;
+  display: inline-block;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.navButton:hover {
+  color: #ffffff !important;
+  background: #f6b93b;
+  border-color: #f6b93b !important;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.disabled {
+  background-color: black;
+  disabled: "disabled";
+}
+
+.disabled:hover {
+  opacity: 0.1;
+}
+
+.disabled:disabled,
+.disabled[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.text {
+  font-family: 'Oswald', sans-serif;
+}
+
+#searchPokemonDiv {
+  width: 20vw;
+}
+
+.text2 {
+  font-family: 'IM Fell English SC', serif;
+}
+
+h2 {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+  #container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #pokePics {
+    margin-left: 5em;
+  }
+  #pokePics img {
+    height: auto;
+    width: 145%;
+  }
+  .pokemonName {
+    font-size: 14px;
+    max-width: 15em;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
